@@ -13,10 +13,14 @@ import java.awt.Font;
  *
  * @author QUENTIN
  */
-public class ScenarioAnimation {
+public class ScenarioAnimation { 
+    
+
     
     public static void main(String[] args){
-        
+        new ScenarioAnimation ().scenario();
+    }
+    public void scenario(){    
         Bandeau bandeau = new Bandeau();
         
         AnimRotation rotation = new AnimRotation(bandeau);
